@@ -1,12 +1,29 @@
-[12:21:43] [main/INFO]: Setting user: Player76
-[12:21:44] [Client thread/INFO]: LWJGL Version: 2.9.1
-[12:21:45] [Client thread/ERROR]: Couldn't initialize twitch stream
-[12:21:48] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
-[12:21:49] [Sound Library Loader/INFO]: Sound engine started
-[12:22:01] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[12:22:01] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[12:22:02] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge
-[12:22:02] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[12:22:02] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[12:22:03] [Sound Library Loader/INFO]: Sound engine started
-[12:22:50] [Client thread/INFO]: Stopping!
+[09:29:16] [main/INFO]: Logging in with username & password
+[09:29:23] [main/INFO]: Setting user: clonecommando85
+[09:29:27] [Client thread/INFO]: LWJGL Version: 2.9.1
+[09:29:37] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:More Tinkers, FMLFileResourcePack:Example Mod, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin, FMLFileResourcePack:Mantle, FMLFileResourcePack:Tinkers' Construct
+[09:29:43] [Sound Library Loader/INFO]: Sound engine started
+[09:29:46] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
+[09:29:46] [Client thread/INFO]: Created: 1024x512 textures/items-atlas
+[09:29:48] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:More Tinkers, FMLFileResourcePack:Example Mod, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin, FMLFileResourcePack:Mantle, FMLFileResourcePack:Tinkers' Construct
+[09:29:49] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
+[09:29:50] [Client thread/INFO]: Created: 1024x1024 textures/items-atlas
+[09:29:51] [Sound Library Loader/INFO]: Sound engine started
+[09:30:05] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[09:30:05] [Server thread/INFO]: Generating keypair
+[09:30:05] [Server thread/INFO]: Preparing start region for level 0
+[09:30:06] [Server thread/INFO]: Changing view distance to 12, from 10
+[09:30:07] [Server thread/INFO]: clonecommando85[local:E:f8a1b0a8] logged in with entity id 346 at (135.5, 69.0, 253.5)
+[09:30:07] [Server thread/INFO]: clonecommando85 joined the game
+[09:30:09] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2081ms behind, skipping 41 tick(s)
+[09:30:15] [Server thread/INFO]: Saving and pausing game...
+[09:30:15] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[09:30:15] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[09:30:15] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[09:30:15] [Server thread/INFO]: Stopping server
+[09:30:15] [Server thread/INFO]: Saving players
+[09:30:15] [Server thread/INFO]: Saving worlds
+[09:30:15] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[09:30:15] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[09:30:15] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[09:30:17] [Client thread/INFO]: Stopping!
