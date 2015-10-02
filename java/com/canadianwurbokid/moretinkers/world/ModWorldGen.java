@@ -13,17 +13,16 @@ import net.minecraft.world.gen.feature.WorldGenerator;
 public class ModWorldGen implements IWorldGenerator{
 
 	private WorldGenerator gen_nickelOre;//Generates Nickel Ore
-	//private WorldGenerator gen_furnace;
 	
 	public ModWorldGen() {
-	    this.gen_nickelOre = new WorldGenMinable(ModBlocks.nickelOre, 8);
+	    this.gen_nickelOre = new WorldGenMinable(ModBlocks.nickelOre, 20);
 	}
 	
 	@Override
     public void generate(Random random, int chunkX, int chunkZ, World world, IChunkProvider chunkGenerator, IChunkProvider chunkProvider) {
 		switch (world.provider.dimensionId) {
 	    case 0: //Overworld
-	    	this.runGenerator(this.gen_nickelOre, world, random, chunkX, chunkZ, 20, 0, 64);
+	    	this.runGenerator(this.gen_nickelOre, world, random, chunkX, chunkZ, 8, 0, 64);
 	    	break;
 		
 	    case -1: //Nether
@@ -45,7 +44,7 @@ public class ModWorldGen implements IWorldGenerator{
 	        int x = chunk_X * 16 + rand.nextInt(16);
 	        int y = minHeight + rand.nextInt(heightDiff);
 	        int z = chunk_Z * 16 + rand.nextInt(16);
-	        generator.generate(null, rand, x, y, z);
+	        generator.generate(world, rand, x, y, z);
 	    }
 	}
 }

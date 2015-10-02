@@ -6,11 +6,8 @@ import net.minecraft.item.Item;
 
 public final class ModItems {
 
-	public static Item tutorialItem;
-	
 	 public static final void init() {
-		 tutorialItem = new Item().setUnlocalizedName("tutorialItem").setCreativeTab(CreativeTabs.tabMisc);
-		 GameRegistry.registerItem(tutorialItem, "tutorialItem");   
+		    
 	 }
 	 
 }
