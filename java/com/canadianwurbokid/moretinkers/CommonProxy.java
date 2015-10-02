@@ -2,10 +2,12 @@ package com.canadianwurbokid.moretinkers;
 
 import com.canadianwurbokid.moretinkers.block.ModBlocks;
 import com.canadianwurbokid.moretinkers.item.ModItems;
+import com.canadianwurbokid.moretinkers.world.ModWorldGen;
 
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
 
 public class CommonProxy {
 
@@ -15,7 +17,7 @@ public class CommonProxy {
 	}
 	
 	public void init(FMLInitializationEvent e){
-		
+		GameRegistry.registerWorldGenerator(new ModWorldGen(), 0);
 	}
 	
 	public void postInit(FMLPostInitializationEvent e){

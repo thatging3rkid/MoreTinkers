@@ -10,6 +10,6 @@ public final class ModBlocks {
 
     public static final void init() {
 
-    	GameRegistry.registerBlock(nickelOre = new OreBlocks("nickelOre", Material.iron), "nickelOre");
+    	GameRegistry.registerBlock(nickelOre = new OreBlocks("nickelOre",Material.rock),"nickelOre");
     }
 }

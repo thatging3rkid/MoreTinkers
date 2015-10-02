@@ -6,8 +6,10 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 
+
 public class OreBlocks extends Block{
 
+	
 	protected OreBlocks(String unlocalizedName, Material material) {
         super(material);
         this.setBlockName(unlocalizedName);
@@ -18,4 +20,8 @@ public class OreBlocks extends Block{
         this.setHarvestLevel("pickaxe", 1);
         this.setStepSound(soundTypeMetal);
 	}
+	
+	
 }
+	
+	
