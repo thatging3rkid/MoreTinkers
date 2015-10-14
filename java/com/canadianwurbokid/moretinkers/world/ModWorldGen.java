@@ -22,7 +22,7 @@ public class ModWorldGen implements IWorldGenerator{
     public void generate(Random random, int chunkX, int chunkZ, World world, IChunkProvider chunkGenerator, IChunkProvider chunkProvider) {
 		switch (world.provider.dimensionId) {
 	    case 0: //Overworld
-	    	this.runGenerator(this.gen_nickelOre, world, random, chunkX, chunkZ, 8, 0, 64);
+	    	this.runGenerator(this.gen_nickelOre, world, random, chunkX, chunkZ, 4, 0, 64);
 	    	break;
 		
 	    case -1: //Nether
