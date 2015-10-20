@@ -13,9 +13,11 @@ import net.minecraft.world.gen.feature.WorldGenerator;
 public class ModWorldGen implements IWorldGenerator{
 
 	private WorldGenerator gen_nickelOre;//Generates Nickel Ore
+	private WorldGenerator gen_titaniumOre;//Generates Titanium Ore
 	
 	public ModWorldGen() {
 	    this.gen_nickelOre = new WorldGenMinable(ModBlocks.nickelOre, 20);
+	    this.gen_titaniumOre = new WorldGenMinable(ModBlocks.titaniumOre, 8);
 	}
 	
 	@Override
@@ -23,6 +25,7 @@ public class ModWorldGen implements IWorldGenerator{
 		switch (world.provider.dimensionId) {
 	    case 0: //Overworld
 	    	this.runGenerator(this.gen_nickelOre, world, random, chunkX, chunkZ, 4, 0, 64);
+	    	this.runGenerator(this.gen_titaniumOre, world, random, chunkX, chunkZ, 5, 0, 64);
 	    	break;
 		
 	    case -1: //Nether
