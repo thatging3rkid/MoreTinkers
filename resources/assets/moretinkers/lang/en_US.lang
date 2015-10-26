@@ -7,3 +7,5 @@ tile.titaniumBlock.name=Titanium Block
 item.titaniumIngot.name=Titanium Ingot
 
 itemGroup.MoreTinkers=MoreTinkers
+
+material.nickel=Nickel
