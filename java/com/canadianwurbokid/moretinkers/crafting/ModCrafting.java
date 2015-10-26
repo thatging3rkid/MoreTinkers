@@ -1,4 +1,4 @@
-package com.canadianwurbokid.crafting;
+package com.canadianwurbokid.moretinkers.crafting;
 
 import com.canadianwurbokid.moretinkers.block.ModBlocks;
 import com.canadianwurbokid.moretinkers.item.ModItems;
