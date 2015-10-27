@@ -14,9 +14,9 @@ public final class ModBlocks {
 
     public static final void init() {
 
-    	GameRegistry.registerBlock(nickelOre = new NickelOre("nickelOre",Material.rock),"nickelOre");
+    	GameRegistry.registerBlock(nickelOre = new NickelOre("ore_nickel",Material.rock),"nickelOre");
     	GameRegistry.registerBlock(nickelBlock = new NickelBlock("nickelBlock",Material.iron),"nickelBlock");
-    	GameRegistry.registerBlock(titaniumOre = new TitaniumOre("titaniumOre",Material.rock), "titaniumOre");
+    	GameRegistry.registerBlock(titaniumOre = new TitaniumOre("ore_titanium",Material.rock), "titaniumOre");
     	GameRegistry.registerBlock(titaniumBlock = new TitaniumBlock("titaniumBlock",Material.iron), "titaniumBlock");
     }
 }
