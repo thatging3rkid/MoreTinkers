@@ -25,7 +25,7 @@ public final class ModItems {
 		 nickelIngot = new Item().setUnlocalizedName("nickelIngot").setCreativeTab(CreativeTabMod.moreTinkers).setTextureName(Main.MODID + ":nickelIngot");
 		 GameRegistry.registerItem(nickelIngot, "nickelIngot");
 		 
-		 titaniumIngot = new Item().setUnlocalizedName("titaniumIngot").setCreativeTab(CreativeTabMod.moreTinkers);
+		 titaniumIngot = new Item().setUnlocalizedName("titaniumIngot").setCreativeTab(CreativeTabMod.moreTinkers).setTextureName(Main.MODID + ":titaniumIngot");
 		 GameRegistry.registerItem(titaniumIngot, "titaniumIngot");
 		
 		// Adding Nickel to Tinkers (attempt 1)
