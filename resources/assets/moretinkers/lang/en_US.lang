@@ -1,8 +1,8 @@
-tile.nickelOre.name=Nickel Ore
+tile.ore_nickel.name=Nickel Ore
 tile.nickelBlock.name=Nickel Block
 item.nickelIngot.name=Nickel Ingot
 
-tile.titaniumOre.name=Titanium Ore
+tile.ore_titanium.name=Titanium Ore
 tile.titaniumBlock.name=Titanium Block
 item.titaniumIngot.name=Titanium Ingot
 
