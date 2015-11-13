@@ -30,7 +30,7 @@ public final class ModItems {
 		
 		// Adding Nickel to Tinkers (attempt 1)
 		// Tool Materials: id, name, harvestlevel, durability, speed, damage, handlemodifier, reinforced, shoddy, style color, primary color for block use
-		TConstructRegistry.addToolMaterial(61, "Nickel", "material.nickel", 2, 230, 800, 1, 1.0F, 0, 0f, "§F", 0xA09685);
+		TConstructRegistry.addToolMaterial(61, "Nickel", "material.nickel", 2, 230, 800, 1, 1.0F, 0, 0f, "§F", 0xBDBDBD);
 		
 		TConstructClientRegistry.addMaterialRenderMapping(61, "moretinkers\\textures\\nickel", "nickel", false);
 		
