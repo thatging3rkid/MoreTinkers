@@ -15,7 +15,7 @@ public final class ModBlocks {
 	
 	public static Block titaniumOre;
 	public static Block titaniumBlock;
-	public static Fluid moltenTitanium = new Fluid("liquid_titanium");
+	public static Fluid moltenTitanium = new MoltenTitaniumFluid();
 	public static Block liquidTitanium;
 
     public static final void init() {
@@ -25,6 +25,7 @@ public final class ModBlocks {
     	GameRegistry.registerBlock(titaniumOre = new TitaniumOre("ore_titanium",Material.rock), "titaniumOre");
     	GameRegistry.registerBlock(titaniumBlock = new TitaniumBlock("titaniumBlock",Material.iron), "titaniumBlock");
     	FluidRegistry.registerFluid(moltenTitanium);
+    	//liquidTitanium.registerBlockIcons(p_149651_1_);
     	GameRegistry.registerBlock(liquidTitanium = new TitaniumFluid(moltenTitanium, Material.lava), "liquid_titanium").setCreativeTab(CreativeTabMod.moreTinkers);
     }
 }

@@ -2,6 +2,7 @@ package com.canadianwurbokid.moretinkers;
 
 import com.canadianwurbokid.crafting.ModCrafting;
 import com.canadianwurbokid.moretinkers.block.ModBlocks;
+import com.canadianwurbokid.moretinkers.block.ModFluids;
 import com.canadianwurbokid.moretinkers.item.ModItems;
 import com.canadianwurbokid.moretinkers.world.ModWorldGen;
 
@@ -14,6 +15,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 public class CommonProxy {
 
 	public void preInit(FMLPreInitializationEvent e){
+		//ModFluids.init();
 		ModBlocks.init();
 		ModItems.init();
 	}
