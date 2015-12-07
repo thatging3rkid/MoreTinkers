@@ -9,3 +9,6 @@ item.titaniumIngot.name=Titanium Ingot
 itemGroup.MoreTinkers=MoreTinkers
 
 material.nickel=Nickel
+material.titanium=Titanium
+
+tile.null.name=Molten Titanium
