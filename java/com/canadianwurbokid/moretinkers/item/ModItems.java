@@ -33,7 +33,7 @@ public final class ModItems {
 		TConstructRegistry.addToolMaterial(61, "Nickel", "material.nickel", 2, 230, 800, 1, 1.0F, 0, 0f, "§F", 0xBDBDBD);
 		TConstructRegistry.addToolMaterial(62, "Titanium", "material.titanium", 3, 330, 900, 2, 1.2F, 0, 0f, "§F", 0xEDEDF7);
 		
-		TConstructClientRegistry.addMaterialRenderMapping(61, "moretinkers\\textures\\items", "nickel", true);
+		TConstructClientRegistry.addMaterialRenderMapping(61, "moretinkers\\textures\\nickel", "nickel", false);
 		TConstructClientRegistry.addMaterialRenderMapping(62, "moretinkers\\textures\\titanium", "titanium", false);
 		
 		TConstructRegistry.addDefaultToolPartMaterial(61);
