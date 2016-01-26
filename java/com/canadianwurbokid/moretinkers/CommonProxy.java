@@ -15,7 +15,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 public class CommonProxy {
 
 	public void preInit(FMLPreInitializationEvent e){
-		//ModFluids.init();
+		ModFluids.init();
 		ModBlocks.init();
 		ModItems.init();
 	}
