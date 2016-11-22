@@ -1,0 +1,14 @@
+tile.ore_nickel.name=Nickel Ore
+tile.nickelBlock.name=Nickel Block
+item.nickelIngot.name=Nickel Ingot
+
+tile.ore_titanium.name=Titanium Ore
+tile.titaniumBlock.name=Titanium Block
+item.titaniumIngot.name=Titanium Ingot
+
+itemGroup.MoreTinkers=MoreTinkers
+
+material.nickel=Nickel
+material.titanium=Titanium
+
+tile.null.name=Molten Titanium
